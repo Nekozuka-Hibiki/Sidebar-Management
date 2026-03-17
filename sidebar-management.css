@@ -63,3 +63,11 @@ div.q-context-menu.more-menu > div.more-h-menu > div.more-h-menu-item:has(div[ar
     flex-direction: column;
     align-items: center; 
 }
+/* 隐藏 QQ 左上角的 Logo */
+.qq-logo {
+    display: none !important;
+}
+/* 隐藏表情菜单的 GIF 热图 */
+.tabs-container-item[aria-label="GIF热图"] {
+    display: none !important;
+}
