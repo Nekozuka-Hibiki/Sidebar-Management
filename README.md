@@ -9,3 +9,7 @@
 可设置左边侧边栏的所有选项是否需要隐藏。
 
 ![sidebar-management](./images/sidebar-management.png)
+
+## [sidebar-management](./ConversationQuickRemover.js)
+
+复刻自[ConversationQuickRemover.js](https://github.com/Natsukage/Scriptio-user-scripts)，快捷移除对话
