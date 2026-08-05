@@ -17,3 +17,7 @@
 ## [highlight-at](./highlight-at.css)
 
 高亮艾特
+
+## [hide-self](./hide-self.css)
+
+隐藏居右的自己的头像和昵称（兼容 lite-tools）
