@@ -2,7 +2,7 @@
 
 **适用于 [Transitio](https://github.com/PRO-2684/transitio) 插件的QQNT自定义样式**
 
-## 以下脚本均为自用 ##
+## 以下用户样式均为自用 ##
 
 ## [sidebar-management](./sidebar-management.css)
 
