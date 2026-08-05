@@ -1,0 +1,28 @@
+/* ==UserStyle==
+@name           Hide Self
+@description    隐藏居右的自己的头像和昵称（兼容 lite-tools）
+@preprocessor   none
+@version        0.1.4
+@homepageURL    https://github.com/Nekozuka-Hibiki/Sidebar-Management
+@author         Nekozuka-Hibiki
+@license        gpl-3.0
+==/UserStyle== */
+
+/* 规则1：基础隐藏（无 lite-tools 时生效） */
+.message-container.message-container--self.message-container--align-right {
+    grid-template-areas:
+        "checkbox . status content"
+        "checkbox tips tips tips";
+    grid-template-columns: auto 1fr calc(var(--avatar_size_2) + 8px);
+    > .avatar-span {
+        display: none;
+    }
+    > .user-name {
+        display: none;
+    }
+}
+
+/* 规则2：覆盖 lite-tools 的列宽（有 lite-tools 时生效） */
+.message-container:has(.content-status .lt-slot).message-container--align-right {
+    grid-template-columns: auto 1fr 0 !important;
+}
